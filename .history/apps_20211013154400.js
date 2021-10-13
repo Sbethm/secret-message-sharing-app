@@ -1,12 +1,12 @@
 const { hash } = window.location;
-
+cons
 
 const message = atob(hash.replace('#', ''));
 
 if(message) {
     
     document.querySelector('.message-show').classList.remove('hide');
-    document.getElementById('message-create').classList.add('hide');
+    input.classList.add('hide');
 
     document.querySelector('h1').innerHTML = message;
 }

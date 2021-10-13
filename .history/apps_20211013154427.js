@@ -6,7 +6,7 @@ const message = atob(hash.replace('#', ''));
 if(message) {
     
     document.querySelector('.message-show').classList.remove('hide');
-    document.getElementById('message-create').classList.add('hide');
+    document.getElementById.('')classList.add('hide');
 
     document.querySelector('h1').innerHTML = message;
 }
